@@ -23,6 +23,7 @@ app.put("/put",(req,res)=>{
     res.send("Data Update request Recieved");
 });
 
+
 // Handling DELETE request
 app.delete("/delete",(req,res)=>{
     console.log("DELETE Request Successfull!");
