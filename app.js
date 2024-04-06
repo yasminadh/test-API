@@ -7,7 +7,7 @@ app.use(express.json());
 app.get("/",(req,res)=>{
     console.log("get Request Successfull!");
     console.log(req.body);
-    res.json({ message: "Data GET request received" });
+    res.send("Data get request Recieved");
 });
 //Handling POST request
 app.get("/post",(req,res)=>{
