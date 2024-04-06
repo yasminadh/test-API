@@ -4,7 +4,7 @@ const PORT = 3000;
 app.use(express.json());
 
 // Handling GET request
-app.get("/get",(req,res)=>{
+app.get("/",(req,res)=>{
     console.log("get Request Successfull!");
     console.log(req.body);
     res.json({ message: "Data GET request received" });
